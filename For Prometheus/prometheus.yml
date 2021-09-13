@@ -1,0 +1,16 @@
+global:
+  scrape_interval: 15s
+  external_labels:
+    monitor: 'prometheus'
+
+scrape_configs:
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']
+
+  - job_name: 'node'
+  ec2_sd_configs:
+    - region: us-east-1 #be sure it's your region
+      access_key: PUT_THE_ACCESS_KEY_HERE
+      secret_key: PUT_THE_SECRET_KEY_HERE
+      port: 9100

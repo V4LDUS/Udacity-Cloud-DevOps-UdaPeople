@@ -1,0 +1,7 @@
+[URL01] Github --> https://github.com/3rdValdus/Udacity-Cloud-DevOps-UdaPeople-Project3-21
+[URL02] frontend --> 	http://udapeople-3328958.s3-website-us-east-1.amazonaws.com
+[URL03] Cloudfront --> d1frdl0ey9l9bx.cloudfront.net
+[URL04] backend server --> ec2-18-232-250-168.compute-1.amazonaws.com:3030/api/status
+[URL05] prometheus server --> http://ec2-3-82-156-91.compute-1.amazonaws.com:9090/targets
+
+Circleci build: https://app.circleci.com/pipelines/github/3rdValdus/Udacity-Cloud-DevOps-UdaPeople-Project3-21/15/workflows/33289588-b4ec-41d1-9d8f-498bfc892784
